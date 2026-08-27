@@ -10,3 +10,29 @@ print("Suma:", suma)
 print("Resta: ", resta)
 print("Multiplicación: ", mult)
 print("División: ", div)
+
+#Actividad de análisis
+#Observe el siguiente código:
+nombre = input("Ingrese su nombre: ")
+edad = input("Ingrese su edad: ")
+nueva_edad = edad + 5
+print(nombre)
+print(nueva_edad)
+
+#1. ¿Qué problema presenta el código?
+#R// el código presenta un error en la línea de código numero 2, ya que “edad” se esta guardando como texto por que input() devuelve una cadena, entonces no se puede hacer “nueva_edad = edad + 5” porque se esta intentando sumar un numero con un texto
+
+#2. ¿Qué tipo de dato devuelve input()?
+#R// devuelve un dato tipo cadena de texto
+
+#3. ¿Cómo se puede corregir?
+#R// convirtiendo la edad en numero usando int()
+
+#4. Escriba el código corregido
+#R//
+
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+nueva_edad = edad + 5
+print(nombre)
+print(nueva_edad)
