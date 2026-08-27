@@ -1,3 +1,12 @@
+# ¿Qué es una variable?
+# Una variable es un espacio donde podemos guardar un valor.
+# Ese valor puede cambiar y tomar diferentes valores según se necesite en el programa.
+
+# Ejemplo:
+nombre = "Juan"
+edad = 25
+
+
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
 
